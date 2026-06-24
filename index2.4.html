@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>መተግበሪያ ለመፍትሔ</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="dashboard">
+        <header>
+            <h1>የአደጋ ቅነሳ አገልግሎቶች ተደራሽነትን ማሳደግ</h1>
+            <p class="subtitle">አገልግሎቶች ተደራሽነትን ማሳደግ</p>
+        </header>
+
+        <!-- Macro Progress Component -->
+        <div class="overall-card">
+            <div class="overall-header">
+                <span><a href="index2.html">የተቋማት የሙያ ምክር፣ ቴክኒክ ድጋፍ እና ማካተት ተደራሽነት አቅምን ከ33500 ወደ 38500 ማድረስ</a></span>
+                <span id="macroPercent">0%</span>
+            </div>
+            <div class="progress-track">
+                <div id="macroBar" class="progress-fill bg-green"></div>
+            </div>
+        </div>
+
+        <!-- Roadmap Items Loop -->
+        <div class="roadmap-list">
+            
+            <!-- Phase 1 -->
+            <div class="roadmap-item">
+                <div class="item-info">
+                    <span class="item-title">300 የመንግስት እና 525 የግል ተቋማት ከተጋላጭነትና አጋላጭነታቸው አንጻር የአደጋ ስጋት ቅነሳ ስራን በእቅዶቻቸዉ እንዲያካትቱ ማድረግ</span>
+                    <div class="controls">
+                        <label for="p1">ክንውን</label>
+                        <input type="number" id="p1" class="progress-input" min="0" max="100" value="75">
+                        <span>%</span>
+                    </div>
+                </div>
+                <div class="progress-track">
+                    <div id="p1Bar" class="progress-fill bg-blue"></div>
+                </div>
+            </div>
+
+            <!-- Phase 2 -->
+            <div class="roadmap-item">
+                <div class="item-info">
+                    <span class="item-title">የአደጋ ስጋት ቅነሳ ማካተት ትግበራን በቼክ-ሊስት ድጋፍና ክትትል በማድረግ ግብረ-መልስ መስጠትና የመጣ ለውጥን መሰነድ</span>
+                    <div class="controls">
+                        <label for="p2">ክንውን</label>
+                        <input type="number" id="p2" class="progress-input" min="0" max="100" value="40">
+                        <span>%</span>
+                    </div>
+                </div>
+                <div class="progress-track">
+                    <div id="p2Bar" class="progress-fill bg-blue"></div>
+                </div>
+            </div>
+
+            <!-- Phase 3 -->
+            <div class="roadmap-item">
+                <div class="item-info">
+                    <span class="item-title">የአደጋ ስጋት ቅነሳና ማካተት ትግበራ ፎካል ፐርሰን በአመት 2 ጊዜ በማግኘት የማካተት ስራውን በጋራ መገምገም</span>
+                    <div class="controls">
+                        <label for="p3">ክንውን</label>
+                        <input type="number" id="p3" class="progress-input" min="0" max="100" value="40">
+                        <span>%</span>
+                    </div>
+                </div>
+                <div class="progress-track">
+                    <div id="p3Bar" class="progress-fill bg-blue"></div>
+                </div>
+            </div>
+
+            <!-- Phase 4 -->
+            <div class="roadmap-item">
+                <div class="item-info">
+                    <span class="item-title">የአደጋ ስጋትን በልማት ዕቅዳቸው በማካተትና መተግበር ዙሪያ 15 ጊዜ ወርክ-ሾፕ ማዘጋጀት</span>
+                    <div class="controls">
+                        <label for="p4">ክንውን</label>
+                        <input type="number" id="p4" class="progress-input" min="0" max="100" value="40">
+                        <span>%</span>
+                    </div>
+                </div>
+                <div class="progress-track">
+                    <div id="p4Bar" class="progress-fill bg-blue"></div>
+                </div>
+            </div>
+
+            <!-- Phase 5 -->
+            <div class="roadmap-item">
+                <div class="item-info">
+                    <span class="item-title">ለ750 መንግስት እና ግል ተቋማት ውስጥ ለሚገኙ 11,250 የተቋም ማህበረሰብ የ2 ቀናት የግንዛቤ ማስጨበጫ ስልጠና መስጠት</span>
+                    <div class="controls">
+                        <label for="p5">ክንውን</label>
+                        <input type="number" id="p5" class="progress-input" min="0" max="100" value="40">
+                        <span>%</span>
+                    </div>
+                </div>
+                <div class="progress-track">
+                    <div id="p5Bar" class="progress-fill bg-blue"></div>
+                </div>
+            </div>
+
+            <!-- Phase 6 -->
+            <div class="roadmap-item">
+                <div class="item-info">
+                    <span class="item-title">የሙያ ምክር ለ6,250 ተቋማት በማድረግ ግብረ-መልስ መስጠት</span>
+                    <div class="controls">
+                        <label for="p6">ክንውን</label>
+                        <input type="number" id="p6" class="progress-input" min="0" max="100" value="40">
+                        <span>%</span>
+                    </div>
+                </div>
+                <div class="progress-track">
+                    <div id="p6Bar" class="progress-fill bg-blue"></div>
+                </div>
+            </div>
+
+            <!-- Phase 7 -->
+            <div class="roadmap-item">
+                <div class="item-info">
+                    <span class="item-title">ለ3125 ተቋማት የቴክኒክ ድጋፍ ማድረግ</span>
+                    <div class="controls">
+                        <label for="p7">ክንውን</label>
+                        <input type="number" id="p7" class="progress-input" min="0" max="100" value="40">
+                        <span>%</span>
+                    </div>
+                </div>
+                <div class="progress-track">
+                    <div id="p7Bar" class="progress-fill bg-blue"></div>
+                </div>
+            </div>
+
+            <!-- Phase 8 -->
+            <div class="roadmap-item">
+                <div class="item-info">
+                    <span class="item-title">በሙያ ምክር እና ቴክኒክ ድጋፍ የአደጋ ስጋት ደረጃን በመለየት ከፍተኛ የተጋላጭነት ደረጃ ያላቸውን 1,563 ተቋማት ግንዛቤና ቅድመ-ማስጠንቀቂያ መስጠት</span>
+                    <div class="controls">
+                        <label for="p8">ክንውን</label>
+                        <input type="number" id="p8" class="progress-input" min="0" max="100" value="40">
+                        <span>%</span>
+                    </div>
+                </div>
+                <div class="progress-track">
+                    <div id="p8Bar" class="progress-fill bg-blue"></div>
+                </div>
+            </div>
+
+            <!-- Phase 9 -->
+            <div class="roadmap-item">
+                <div class="item-info">
+                    <span class="item-title">300 አዳዲስ የህንጻ ግንባታዎች የአደጋ የደህንነት መስፈርትን አሟልተው እንዲገነቡ ማድረግ</span>
+                    <div class="controls">
+                        <label for="p9">ክንውን</label>
+                        <input type="number" id="p9" class="progress-input" min="0" max="100" value="40">
+                        <span>%</span>
+                    </div>
+                </div>
+                <div class="progress-track">
+                    <div id="p9Bar" class="progress-fill bg-blue"></div>
+                </div>
+            </div>
+
+            <!-- Phase 10 -->
+            <div class="roadmap-item">
+                <div class="item-info">
+                    <span class="item-title">ለ15 አዳዲስ/ ሰርተፊኬት ያልወሰዱ የጅምር እሳት ማጥፊያ አስመጪ፣ አከፋፋይ፣የሚሞሉ እና የሚጠግኑ ተቋማት የቴክኒክ ድጋፍ ማድረግ</span>
+                    <div class="controls">
+                        <label for="p10">ክንውን</label>
+                        <input type="number" id="p10" class="progress-input" min="0" max="100" value="40">
+                        <span>%</span>
+                    </div>
+                </div>
+                <div class="progress-track">
+                    <div id="p10Bar" class="progress-fill bg-blue"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
